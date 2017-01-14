@@ -19,15 +19,16 @@
 		<div id="snow"></div>
 	</div>
 </section>
-
+<audio src="music.mp3" autoplay="true" loop="loop" id="music" style="width:200px;height:50px;"></audio>
 <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
 <script src="js/jquery.fallingsnow.min.js"></script>
 <script>
-	$( "#snow" ).fallingSnow();		
+	$( "#snow" ).fallingSnow();
+	//$("#music").play();
+	document.getElementById("music").play();	
 </script>
 
 <div style="text-align:center;clear:both;">
-<audio src="music.mp3" autoplay="true" loop="loop"></audio>
 </div>
 
 </body>
